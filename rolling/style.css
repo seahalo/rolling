@@ -1,0 +1,180 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-family:    Arial,  Geneva,  Helvetica, "Lucida Sans",  Trebuchet, Verdana;
+}
+
+
+.error {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+table
+{
+border-collapse:collapse;
+}g
+table,th, td
+{
+border: 1px solid black;
+}
+
+.package_content {
+margin-left:10px;
+}
+
+.login {
+  font-style: italic;
+}
+
+form label {  display: inline-block;  width: 150px;
+  font-weight: bold;
+}
+
+td.label {
+  font-weight: bold;
+}
+
+img.profile {
+  vertical-align: top;
+}
+
+td.update
+{
+	padding:5px 0;
+}
+
+p.loginfo
+{
+	float:left;
+}
+
+fieldset.queryset
+{
+	width:200px;
+	float:left;
+}
+
+form.queryform
+{
+	float:left;
+	clear:right;
+}
+
+div.package_list
+{
+	border-style:solid;
+    border-color:#0080c0;   
+	clear:left;
+}
+
+div.query_submit
+{
+	clear:left;
+}
+
+div.userlogo
+{
+    font-weight: bold;
+    font-family:"Arial";
+    padding:5px;
+    width:60px;
+    float:left;
+    display:inline;	
+}
+ul.main_menu {
+font-family:"Arial";
+padding:5px;
+background:#485e49;
+}
+
+
+ul.main_menu li {
+display:inline;
+padding:4px;
+}
+
+ul.main_menu li a {
+text-decoration:none;
+padding:5px 0;
+width:160px;
+background:#485e49;
+color:#eee;
+}
+
+ul.main_menu li.user_id {
+margin-right:10px;
+text-decoration:none;
+font-weight:bold;
+padding:5px 0;
+width:160px;
+background:#485e49;
+color:#ff0;
+}
+
+ul.main_menu li a:hover {
+background:#a2b3a1;
+color:#000
+}
+
+//Admin menu
+ul.admin_menu {
+}
+
+
+ul.admin_menu li a {
+}
+
+
+/* Section menu */
+ul.section_menu {
+	font-family:"Arial";
+    padding:2px;
+    background:#66B3FF;
+    margin-top:0px;
+}
+
+ul.section_menu li {
+display:inline;
+padding:2px;
+font-weight:bold;
+}
+
+ul.section_menu li a 
+{
+    float: right;
+    color:#000000;
+}
+
+
+
+
+/* Query menu */
+ul.query_menu {
+	font-family:"Arial";
+    padding:2px;
+    background:#66B3FF;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+ul.query_menu li {
+display:inline;
+padding:2px;
+font-weight:bold;
+}
+
+ul.query_menu li a 
+{
+    float: right;
+    color:#FFD073;
+}
+
+
+
+a.print_link{
+padding:2px;
+font-weight:bold;
+color:#000000;
+}
