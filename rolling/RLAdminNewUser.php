@@ -3,7 +3,7 @@ require_once("RLValidateAdmin.php");
 
 require_once("RLIView.php");
 
-require_once("RLRLHeader.php");
+require_once("RLHeader.php");
 require_once("RLFooter.php");
 require_once("model/RLDB.php");
 require_once("model/RLUser.php");
