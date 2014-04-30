@@ -1,12 +1,10 @@
 <?php
   // Define database connection constants
-  define('DB_HOST', '127.0.0.1');
-  define('DB_USER', 'flopear_root');
-  define('DB_PASSWORD', 'ed!rockit');
-  define('DB_NAME', 'flopear_rolling');
-
-// flopear_rolling
-// flopear_root
-// ed!rockit
-  define('DB_DSN', 'mysql:host=127.0.0.1;dbname=flopear_rolling;');
+  define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
+  define('DB_PORT',getenv('OPENSHIFT_MYSQL_DB_PORT'));
+  define('DB_USER',getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+  define('DB_PASS',getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+  define('DB_NAME',getenv('OPENSHIFT_GEAR_NAME'));  
+  
+  define('DB_DSN', 'mysql:dbname='.DB_NAME.';host='.DB_HOST.';port='.DB_PORT);
 ?>
